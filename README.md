@@ -29,8 +29,7 @@ markdown_extensions:
 
 To use it in your Markdown doc:
 
-```
-    ```graphviz attack_plan.svg
+    ```graphviz dot attack_plan.svg
     digraph G {
         rankdir=LR
         Earth [peripheries=2]
@@ -38,7 +37,6 @@ To use it in your Markdown doc:
         Earth -> Mars
     }
     ```
-```
 
 Alternatively you can still using `{%` legacy notation but its not recommended.
 

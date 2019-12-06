@@ -27,9 +27,20 @@ markdown_extensions:
     - markdown_inline_graphviz
 ```
 
-To use it in your Markdown doc:
+To use it in your Markdown doc, with SVG output:
 
     ```graphviz dot attack_plan.svg
+    digraph G {
+        rankdir=LR
+        Earth [peripheries=2]
+        Mars
+        Earth -> Mars
+    }
+    ```
+
+or with PNG:
+
+    ```graphviz dot attack_plan.png
     digraph G {
         rankdir=LR
         Earth [peripheries=2]

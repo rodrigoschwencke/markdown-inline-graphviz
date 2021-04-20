@@ -89,7 +89,7 @@ class InlineGraphvizPreprocessor(markdown.preprocessors.Preprocessor):
                     if filetype == 'png':
                         data_url_filetype = 'png'
                         encoding = 'base64'
-                        output = base64.b64encode(output)
+                        output = base64.b64encode(output).decode('utf-8')
                         data_path = "data:image/%s;%s,%s" % (
                             data_url_filetype,
                             encoding,

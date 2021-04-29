@@ -6,14 +6,14 @@ directory.
 Supports outputs types of SVG and PNG. The output will be taken from the
 filename specified in the tag. Example:
 
-{% dot attack_plan.svg
-    digraph G {
-        rankdir=LR
-        Earth [peripheries=2]
-        Mars
-        Earth -> Mars
-    }
-%}
+```graphviz dot test1.svg
+digraph G {
+    rankdir=LR
+    Earth [peripheries=2]
+    Mars
+    Earth -> Mars
+}
+```
 
 Requires the graphviz library (http://www.graphviz.org/) and python 3
 

@@ -6,7 +6,7 @@ directory.
 Supports outputs types of SVG and PNG. The output will be taken from the
 filename specified in the tag. Example:
 
-```graphviz dot test1.svg
+```graphviz dot attack_plan.svg
 digraph G {
     rankdir=LR
     Earth [peripheries=2]

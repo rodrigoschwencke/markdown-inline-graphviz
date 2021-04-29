@@ -15,7 +15,7 @@ Python-Markdown-based static site generator, such as [MkDocs](http://www.mkdocs.
 
 # Installation
 
-    $ pip install mkdocs-markdown_graphviz
+    $ pip install mkdocs-markdown-graphviz
 
 # Usage
 

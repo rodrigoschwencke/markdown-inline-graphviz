@@ -27,7 +27,9 @@ markdown_extensions:
     - mkdocs_markdown_graphviz
 ```
 
-To use it in your Markdown doc, with SVG output:
+To use it in your Markdown doc, 
+
+with SVG output:
 
     ```graphviz dot attack_plan.svg
     digraph G {

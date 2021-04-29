@@ -19,16 +19,16 @@ if sys.argv[-1] == 'publish':
     sys.exit()
 
 setup(
-    name="markdown_inline_graphviz_extension",
+    name="mkdocs_markdown_graphviz",
     version=VERSION,
-    py_modules=["markdown_inline_graphviz"],
+    py_modules=["mkdocs_markdown_graphviz"],
     install_requires=['Markdown>=2.3.1'],
-    author="Cesar Morel",
-    author_email="cesaremoreln@gmail.com",
-    description="Render inline graphs with Markdown and Graphviz (python3 version)",
-    long_description="This is just a continuation of the great job of Steffen Prince (sprin/markdown-inline-graphviz) in order to get it work with pip3. If you use python 2, please use the original extension instead.",
+    author="Rodrigo SCHWENCKE",
+    author_email="dev.hopper@lyceeperier.fr",
+    description="Render Graphviz graphs as inline SVGs and PNGs in Mkdocs with Markdown (python3 version)",
+    long_description="This is just a continuation of the great job of Cesare Morel (cesaremorel/markdown-inline-graphviz) and Steffen Prince (sprin/markdown-inline-graphviz) in order to get it work with pip3 and mkdocs. If you use python 2, please use the original extension instead.",
     license="MIT",
-    url="https://github.com/cesaremorel/markdown-inline-graphviz",
+    url="https://github.com/rodrigoschwencke/mkdocs-markdown-graphviz",
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
@@ -41,5 +41,8 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
     ],
 )

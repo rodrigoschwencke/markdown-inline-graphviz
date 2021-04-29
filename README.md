@@ -3,8 +3,8 @@ Mkdocs Markdown Graphviz (for Python 3)
 
 This is just a continuation of the great job of :
 
-* Cesare Morel [cesaremorel/markdown-inline-graphviz](https://github.com/cesaremorel/markdown-inline-graphviz), and 
-* Steffen Prince before him in [sprin/markdown-inline-graphviz](https://github.com/sprin/markdown-inline-graphviz), 
+* Cesare Morel [cesaremorel/markdown-inline-graphviz](https://github.com/cesaremorel/markdown-inline-graphviz), and before him,
+* Steffen Prince in [sprin/markdown-inline-graphviz](https://github.com/sprin/markdown-inline-graphviz), 
 in order to get it work with pip for python 3 (pip3). If you use python 2, please use the original extension instead.
 
 A Python Markdown extension for Mkdocs, that renders inline Graphviz definitions with inline SVGs or PNGs out of the box !

@@ -2,7 +2,7 @@ import os
 import sys
 from setuptools import setup
 
-VERSION = '1.1'
+VERSION = '1.3'
 
 if sys.argv[-1] == 'publish':
     if os.system("pip freeze | grep wheel"):
@@ -26,7 +26,16 @@ setup(
     author="Rodrigo SCHWENCKE",
     author_email="dev.hopper@lyceeperier.fr",
     description="Render Graphviz graphs as inline SVGs and PNGs in Mkdocs with Markdown (python3 version)",
-    long_description="This is just a continuation of the great job of Cesare Morel (cesaremorel/markdown-inline-graphviz) and Steffen Prince (sprin/markdown-inline-graphviz) in order to get it work with pip3 and mkdocs. If you use python 2, please use the original extension instead.",
+    long_description_content_type="text/markdown",
+    long_description="""This is just a continuation of the great job of :
+
+* Cesare Morel [cesaremorel/markdown-inline-graphviz](https://github.com/cesaremorel/markdown-inline-graphviz), and before him,
+* Steffen Prince in [sprin/markdown-inline-graphviz](https://github.com/sprin/markdown-inline-graphviz), 
+* Initially inspired by Jawher Moussa [jawher/markdown-dot](https://github.com/jawher/markdown-dot)
+    
+in order to get it work with pip3 and mkdocs.
+
+If you use python 2, please use the original extension instead.""",
     license="MIT",
     url="https://github.com/rodrigoschwencke/mkdocs-markdown-graphviz",
     classifiers=[

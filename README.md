@@ -57,11 +57,10 @@ Supported Graphviz commands: dot, neato, fdp, sfdp, twopi, circo.
 
 # Credits
 
-Inspired by [jawher/markdown-dot](https://github.com/jawher/markdown-dot),
-which renders the dot graph to a file instead of inline.
-
 Forked from [cesaremorel/markdown-inline-graphviz](https://github.com/cesaremorel/markdown-inline-graphviz)
 
+Inspired by [jawher/markdown-dot](https://github.com/jawher/markdown-dot),
+which renders the dot graph to a file instead of inline.
 
 # License
 

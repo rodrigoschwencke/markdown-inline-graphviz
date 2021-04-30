@@ -5,7 +5,7 @@ This is just a continuation of the great job of :
 
 * Cesare Morel [cesaremorel/markdown-inline-graphviz](https://github.com/cesaremorel/markdown-inline-graphviz), and before him,
 * Steffen Prince in [sprin/markdown-inline-graphviz](https://github.com/sprin/markdown-inline-graphviz), 
-* Initially inspired by Jawher Moussa (jawher/markdown-dot)
+* Initially inspired by Jawher Moussa [jawher/markdown-dot](https://github.com/jawher/markdown-dot)
 
 in order to get it work with pip for python 3 (pip3). If you use python 2, please use the original extension instead.
 

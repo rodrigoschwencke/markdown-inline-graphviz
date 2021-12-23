@@ -7,6 +7,7 @@ This Project has been:
 
 * moved to **GITLAB** : [rodrigo.schwencke/mkdocs-graphviz](https://gitlab.com/rodrigo.schwencke/mkdocs-graphviz/)
 * renamed to the new name `mkdocs-graphviz`
+* uploaded to PyPI: [mkdocs-graphviz](https://pypi.org/project/mkdocs-graphviz/)
 
 Please refer to GITLAB instructions for install & configs.
 

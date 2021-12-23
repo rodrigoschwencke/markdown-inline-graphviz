@@ -1,6 +1,17 @@
 Mkdocs Markdown Graphviz (for Python 3)
 =======================================
 
+⚠️ WARNING ⚠️ **This Page is OUTDATED**: it has been preserved for archive purposes.
+
+This Project has been:
+
+* moved to **GITLAB** : [rodrigo.schwencke/mkdocs-graphviz](https://gitlab.com/rodrigo.schwencke/mkdocs-graphviz/)
+* renamed to the new name `mkdocs-graphviz`
+
+Please refer to GITLAB instructions for install & configs.
+
+-------
+
 This is just a continuation of the great job of :
 
 * Cesare Morel [cesaremorel/markdown-inline-graphviz](https://github.com/cesaremorel/markdown-inline-graphviz), and before him,

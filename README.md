@@ -3,7 +3,7 @@ Mkdocs Markdown Graphviz (for Python 3)
 
 ⚠️ WARNING ⚠️ **This Page is OUTDATED, PLEASE DO NOT USE**: it has been preserved for archive purposes.
 
-This Project has been:
+This Project Repository has been:
 
 * moved to **GITLAB** : [rodrigo.schwencke/mkdocs-graphviz](https://gitlab.com/rodrigo.schwencke/mkdocs-graphviz/)
 * renamed to the new name `mkdocs-graphviz`

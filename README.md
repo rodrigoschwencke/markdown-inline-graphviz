@@ -1,7 +1,7 @@
 Mkdocs Markdown Graphviz (for Python 3)
 =======================================
 
-⚠️ WARNING ⚠️ **This Page is OUTDATED**: it has been preserved for archive purposes.
+⚠️ WARNING ⚠️ **This Page is OUTDATED, PLEASE DO NOT USE**: it has been preserved for archive purposes.
 
 This Project has been:
 
